@@ -22,9 +22,13 @@ body *{
     font-family: 'Rubik';
     letter-spacing: -0.02em;
 }
+h3{
+    padding: 20px;
+    color: rgb(143, 143, 143);
+}
 #calculator{
     width: 400px;
-    height: 640px;
+    height: max-content;
     background-color: rgb(24, 24, 24);
     
     border-radius: 35px;
@@ -41,33 +45,37 @@ body *{
 #display{
     /*padding-inline adiciona o padding no inicio e no fim*/
     padding-inline: 50px;
-    margin-top: 50px;
 }
-#preview-result{
+#current-result, #preview-result{
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+#current-result{
     text-align: right;
     font-size: 20px;
     line-height: 140%;
     color: rgb(143, 143, 143);
 }
-#result{
+#preview-result{
     /*space-between mantem os elementos do mesmo lado porem com espaço entre eles*/
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-#result span{
+#preview-result span{
     font-size: 36px;
     line-height: 140%;
     color: white;
 }
 #keyboard{
     margin-top: 42px;
+    margin-bottom: 20px;
     margin-inline: 28px;
     /*gap é o espaço entre os elementos
       1fr busca destribuir os elementos por igual*/
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 22px;
 }
 button{
     width: 68px;
@@ -102,4 +110,13 @@ button{
 .fourth{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
     box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
+}
+button:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #36333f;
+}
+.third:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.021) 100%), #5a3496fb;
+}
+.fourth:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.021) 100%), #713cce;
 }
