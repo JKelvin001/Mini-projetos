@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">
+            <div id="preview-result">0</div>
+            <div id="result">
+                <img src="./assets/equals.svg" alt="Sinal de igualdade">
+                <span>0</span>
+            </div>
+        </div>
+        <div id="keyboard">
+            <button class="second" onclick="clean()">CE</button>
+            <button onclick="back()">C</button>
+            <button onclick="insert('%')">%</button>
+            <button class="third" onclick="insert('/')">
+                <img src="./assets/divide.svg" alt="Sinal de Divisão">
+            </button>
+
+            <button onclick="insert('7')">7</button>
+            <button onclick="insert('8')">8</button>
+            <button onclick="insert('9')">9</button>
+            <button class="third" onclick="insert('*')">
+                <img src="./assets/x.svg" alt="Multiplicação">
+            </button>
+
+            <button onclick="insert('4')">4</button>
+            <button onclick="insert('5')">5</button>
+            <button onclick="insert('6')">6</button>
+            <button class="third" onclick="insert('-')">
+                <img src="./assets/subtract.svg" alt="Subtração">
+            </button>
+
+            <button onclick="insert('3')">3</button>
+            <button onclick="insert('2')">2</button>
+            <button onclick="insert('1')">1</button>
+            <button class="third" onclick="insert('+')">
+                <img src="./assets/addition.svg" alt="Adição">
+            </button>
+
+            <button><img src="./assets/plusminus.svg" alt=""></button>
+            <button onclick="insert('0')">0</button>
+            <button onclick="insert(',')">,</button>
+            <button class="fourth" onclick="calculate()">
+                <img src="./assets/equals2.svg" alt="Sinal de Igualdade">
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
