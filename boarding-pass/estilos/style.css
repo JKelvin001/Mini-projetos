@@ -58,9 +58,6 @@ html, body{
     height: 655px;
     border-radius: 25px;
 }
-#card img{
-    width: 180px;
-}
 .qr{
     position: absolute;
     left: 48%;
@@ -107,5 +104,8 @@ html, body{
 }
 #paper3 h3{
     margin-bottom: -20px;
+}
+#paper3 .content{
+    margin-left: -20px;
 }
 /*Configurações do Conteudo ^^^^*/
