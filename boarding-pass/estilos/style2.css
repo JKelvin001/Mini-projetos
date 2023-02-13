@@ -15,12 +15,8 @@ html, body{
     height: 100vh;
 }
 /*Configurações Gerais ^^^^*/
-#banner{
-    height: 180px;
-    background-color: white;
-}
 #menu{
-    background-color: rgb(240, 240, 240);
+    background-color: white;
 
     width: 100vw;
     height: 80px;
@@ -28,26 +24,49 @@ html, body{
     align-items: center;
     justify-content: center;
 }
-#menu h1{
-    font: normal bold 16px 'Rubik';
+#menu .options{
+    font: normal bold 9px 'Rubik';
     color: black;
-
-    height: 100%;
     padding-inline: 60px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 200px;
+    gap: 10px;
 }
 #menu a{
     height: 100%;
     width: 200px;
     text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#menu h1:hover, a:hover{
+#menu a:hover{
     background-color: rgb(50, 50, 255);
     color: white;
 }
-#sale{
-    height: 320px;
+#menu span{
+    font-size: 40px;
+    color: black;
+}
+/*Configurações Menu ^^^^*/
+main{
+    
+}
+#reserve{
+    display: grid;
+    place-items: left; 
+}
+.card{
     background-color: white;
+    border-radius: 40px;
+
+    width: 1000px;
+    height: 340px;
+    margin-top: 80px;
+    margin-inline: 80px;
 }
