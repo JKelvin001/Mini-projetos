@@ -6,4 +6,4 @@ Otimizado 17/02/2023
 <br>
 <a href="https://jkelvin001.github.io/javascript-2/boarding-pass" target="_blank">Acesse o site aqui!</a>
 <br>
-<iframe src="https://jkelvin001.github.io/javascript-2/boarding-pass" frameborder="0"></iframe>
+<img src="C:\Users\joaok\OneDrive\Documentos\Estudos\Html\javascript-2\boarding-pass\assets\Screenshot_3.png" alt="">
