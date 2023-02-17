@@ -1,2 +1,2 @@
-# javascript-2
- Continuando os estudos em JavaScript 
+Estudos Desenvolvimento Web 
+
