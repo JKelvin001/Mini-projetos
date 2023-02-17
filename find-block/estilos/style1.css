@@ -15,15 +15,15 @@
 html, body{
     font-family: 'Roboto', sans-serif;
 }
-#find-block{
+#display{
     background-color: var(--color1);
-    width: 100vw;
+    width: 99.2vw;
     height: 520px;
 
     display: flex;
     justify-content: center;
 }
-#container{
+#find-block{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,33 +50,77 @@ html, body{
 .title strong{
     color: var(--color2);
 }
-.location{
+.locator{
     display: flex;
     flex-direction: row;
     align-items: center;
-
     width: max-content;
     height: 120px;
     margin-top: 80px;
+    
     background-color: var(--color2);
     border-radius: 10px;   
 }
-.location input{
+.locator input{
+    padding: 10px;
     margin-inline: 15px; 
-    border: none;
     height: 50px;
+    width: 350px;
+
+    border: none;
     border-radius: 4px;
 }
-.location input[type='search']{  
-    width: 350px;
-    padding: 10px;
-    font-size: 14px;
-    background-color: white;
+.locator input[type='search']{  
+    
 }
-.location input[type='button']{
-    width: 200px;
+.locator input[type='button']{
     background-color: white;
     color: var(--color2);
     font: normal bold 16px 'Roboto';
     text-transform: uppercase;
+    
+    width: 200px;  
 }
+.locator input:hover[type='button']{
+    border: 3px solid var(--color1);
+}
+/*PRIMEIRA PARTE*/
+#display2{
+    
+}
+#list{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    background-color: rgba(14, 14, 14, 0.5);
+    margin: 80px auto;
+    width: 90vw;
+    height: 100vh;
+}
+.title-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 8px 20px;
+}
+.title-list button{
+    width: 80px;
+    height: 30px;
+    padding: 4px;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--color2);
+    text-transform: uppercase;
+    font: normal bold 16px 'Roboto';  
+}
+.title-list button:hover{
+    background-color: var(--color2);
+    color: white;
+}
+/*SEGUNDA PARTE*/
