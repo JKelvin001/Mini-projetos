@@ -66,17 +66,17 @@ html, body{
 .qr p{
     margin-top: -40px;
 }
-#paper1{
+#top{
     background-color: rgb(255, 255, 255);
     height: 190px;
     border-radius: 25px 25px 10px 10px;
 }
-#paper2{
+#middle{
     background-color: rgb(255, 255, 255);
     height: 90px;
     border-radius: 10px;
 }
-#paper3{
+#bottom{
     background-color: rgb(255, 255, 255);
     height: 270px;
     border-radius: 10px 10px 25px 25px;
@@ -88,24 +88,24 @@ html, body{
     margin-left: 8px;
 }
 /*Configurações do "papel" ^^^^*/
-#paper1 .title, .content, #paper2 .title, .content{
+#top .title, .content, #middle .title, .content{
     display: flex;
     justify-content: space-between;
     padding-inline: 20px;
 }
-#paper1 p, #paper2 p{
+#top p, #middle p{
     margin-top: 20px;
 }
-#paper3 .title{
+#bottom .title{
     text-align: left;
     padding-inline: 20px;
     padding-top: 40px;
     line-height: 20px;
 }
-#paper3 h3{
+#bottom h3{
     margin-bottom: -20px;
 }
-#paper3 .content{
+#bottom .content{
     margin-left: -20px;
 }
 /*Configurações do Conteudo ^^^^*/
