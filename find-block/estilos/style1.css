@@ -12,11 +12,14 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    color: black;
 }
 html, body{
     font-family: 'Roboto', sans-serif;
 }
 #display{
+    background: url("../assets/NewCanvas12.png");
     background-color: var(--color1);
     width: 99.2vw;
     height: 520px;
@@ -60,7 +63,8 @@ html, body{
     margin-top: 80px;
     
     background-color: var(--color2);
-    border-radius: 10px;   
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.39);   
 }
 .locator input{
     padding: 10px;
@@ -109,21 +113,29 @@ html, body{
     padding: 8px 20px;
 }
 .title-list div{
-    background-color: rgb(240, 240, 240);
-    border: 0.5px solid var(--color4);
+    background-color: rgb(255, 255, 255);
+    border: 0.1px solid rgba(0, 0, 0, 0.150);
     border-radius: 5px;
+
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .title-list button{
     width: 80px;
     height: 30px;
-    padding: 4px;
+    padding: 2px;
     
     border: none;
     border-radius: 5px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
     color: var(--color2);
     text-transform: uppercase;
-    font: normal bold 16px 'Roboto';  
+    font: normal bold 16px 'Roboto';
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.11);
 }
 .title-list button:hover{
     background-color: var(--color2);
@@ -138,20 +150,21 @@ html, body{
     display: flex;
     flex-direction: column;
 }
-.line{
+.line{ 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 .card{
     display: flex;
     flex-direction: column;
-
     width: 386.5px;
     height: 330px;
-    margin-top: 40px;
+    
     border: 0.5px solid var(--color4);
     border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
 }
 .card picture img{
     display: flex;
@@ -173,10 +186,28 @@ html, body{
 }
 /*TERCEIRA PARTE*/
 #display3{
-    font: normal normal 12px 'Arial';
     background-color: var(--color1);
     width: 99.2vw;
-    height: 180px;
-}
+    height: 80px;
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer img{
+    width: 50px;
+    margin-inline: 40px;
+}
+footer a{
+    font: normal bold 18px 'Roboto';
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+footer a:hover{
+    color: var(--color2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+}
 /*QUARTA PARTE*/
