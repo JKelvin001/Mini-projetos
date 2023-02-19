@@ -75,9 +75,7 @@ html, body{
     border: none;
     border-radius: 10px;
 }
-.locator input[type='search']{  
-    
-}
+
 .locator input[type='button']{
     background-color: white;
     color: var(--color2);
@@ -90,9 +88,6 @@ html, body{
     border: 2px solid var(--color1);
 }
 /*PRIMEIRA PARTE*/
-#display2{
-    
-}
 #list{ 
     display: flex;
     flex-direction: column;
@@ -141,6 +136,7 @@ html, body{
     background-color: var(--color2);
     color: white;
 }
+
 /*SEGUNDA PARTE*/
 .block-list{
     width: 90%;
