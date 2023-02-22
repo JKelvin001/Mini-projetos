@@ -5,6 +5,7 @@
     --color2: rgb(120, 0, 225);
     --color3: rgb(170, 170, 170);
     --color4: rgba(50, 50, 50, 0.500);
+    font-size: 62.5%;
 }
 *{
     padding: 0;
@@ -22,7 +23,7 @@ html, body{
     background: url("../assets/NewCanvas12.png");
     background-color: var(--color1);
     width: 99.2vw;
-    height: 520px;
+    height: 50.2rem;
 
     display: flex;
     justify-content: center;
@@ -43,11 +44,11 @@ html, body{
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.100);
 }
 .title h1{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: var(--color2);
 }
 .title h2{
-    font-size: 42px;
+    font-size: 4.2rem;
     width: 550px;
     margin-top: 40px;
 }
@@ -72,6 +73,7 @@ html, body{
     height: 50px;
     width: 350px;
 
+    font-family: 'Roboto';
     border: none;
     border-radius: 10px;
 }
@@ -168,10 +170,11 @@ html, body{
     border-radius: 15px 15px 0px 0px;
 }
 .card h1{
-    font-size: 1.3em;
+    font-size: 1.8rem;
     padding: 14px;
 }
 .card p{
+    font-size: 1.6rem;
     text-align: justify;
     padding: 14px;
 }
