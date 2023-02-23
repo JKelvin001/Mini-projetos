@@ -39,9 +39,7 @@ html, body{
     width: 98vw;
     height: 95vh;
 }
-#frame{
-    border: 1px solid white;
-
+#frame, #frame2{
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -55,9 +53,12 @@ html, body{
     background-color: var(--color2);
 
     border-radius: 2rem;
-    padding: 2rem 10rem;
-    width: max-content;
+    padding: 4rem 10rem;
+    width: fit-content;
     height: 100%;
+}
+#block3{
+    width: 100%;
 }
 #block1 .middle{
     margin: 4rem 0rem;
@@ -80,6 +81,9 @@ html, body{
 }
 #block2 h3{
     font-size: 1.9rem;
+}
+#block2 h4{
+    font-size: 1.3rem;
 }
 #block2 .middle{
     margin: 6.2rem 0rem;
@@ -117,13 +121,13 @@ html, body{
     flex-grow: 0;
 }
 .circle1{
-    background: #4A4556;
+    background: rgb(40, 40, 55);
 }
 .circle2{
-    background: #4d08ee;
+    background: linear-gradient(180deg, rgb(85, 30, 225), rgb(115, 70, 240))
 }
 .circle3{
-    background: #e61146;
+    background: linear-gradient(180deg, rgb(30, 240, 75), rgb(30, 240, 125))
 }
 /*bloco 2*/
 /*bloco 3*/
