@@ -1,76 +1,11 @@
 @charset 'UTF-8';
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-:root{
-    --color1: rgb(40, 40, 55);
-    --color2: rgb(55, 52, 70);
-    --color3: rgb(30, 30, 40);
-    font-size: 62.5%;
-}
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-html, body{
-    font-family: 'Inter', sans-serif;
-}
-
-@media screen and (max-width: 768px){
+@media screen and (min-width: 600px){
     
-    .gh{
-        margin: 10px 0px;
-    }
-    #dashboard{
-        width: 100vw;
-        height: max-content;
-    }
-    #main-frame{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    #main-frame1{
-        min-width: min-content;
-        height: min-content;
-    }
-    #main-frame2{
-        width: max-content;
-    }
-    .middle3{
-        padding-top: 1rem;
-    }
-    .middle4{
-        display: none;
-    }
-    p{
-        font-size: 120%;
-    }
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) {
     
-    .gh{
-        margin: 10px 0px;
-    }
-    #dashboard{
-        width: 95%;
-        height: max-content;
-    }
-    #main-frame1{
-        height: 200px;
-    }
-    #main-frame2{
-        width: 100%;
-    }
-    .graph1, .graph2{
-        width: 120px;
-        height: 20px;
-    }
-    .middle4{
-        display: none;
-    }
+}
+@media screen and (min-width: 992px){
+    
 }    
