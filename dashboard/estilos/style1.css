@@ -39,13 +39,10 @@ html, body{
 }
 .gh{
     width: 50px;
-    will-change: filter;
-    transition: filte 1s;
 }
 .gh:hover{
     border: 1px solid rgb(85, 30, 225);
     border-radius: 50%;
-    filter: drop-shadow(5 5 2 rgb(85, 30, 225));
 }
 #main-frame{
     display: flex;
