@@ -6,4 +6,5 @@
 <br>
 <a href="https://jkelvin001.github.io/javascript-2/calculadora-simples" target="_blank">Simple Calculator</a>
 <br>
-
+<a href="https://jkelvin001.github.io/javascript-2/dashboard" target="_blank">Dashboard</a>
+<br>
