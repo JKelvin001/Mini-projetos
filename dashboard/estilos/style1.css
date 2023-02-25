@@ -22,7 +22,7 @@ html, body{
     display: grid;
     place-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(180deg, rgb(30, 30, 40), rgb(30, 30, 40)) no-repeat;
 }
 #dashboard{
