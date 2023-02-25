@@ -1,5 +1,8 @@
 @charset 'UTF-8';
 
+.middle4{
+    display: none;
+}
 @media screen and (min-width: 600px){
     
 }

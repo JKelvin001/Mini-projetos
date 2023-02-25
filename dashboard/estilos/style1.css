@@ -35,7 +35,7 @@ html, body{
     align-items: center;
     justify-content: center;
     min-width: 90vw;
-    height: 90vh;
+    height: 90%;
 }
 .gh{
     width: 50px;
@@ -60,6 +60,7 @@ html, body{
     border-radius: 2rem;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.30);
     padding: 2rem;
+    margin-bottom: 4rem;
 
     display: flex;
     flex-direction: column;
