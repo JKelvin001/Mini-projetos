@@ -64,6 +64,15 @@ html, body{
     width: 100%;
     height: 100%;
 }
+#main-frame1:hover, #main-frame2:hover{
+    border: 1.5px outset rgb(85, 30, 225);
+    transition: .4s;
+}
+#main-frame1:hover, #main-frame2:hover{
+    width: 120%;
+    height: 110%;
+    transition: .8s;
+}
 /*frame 1*/
 .middle1{
     color: rgb(155, 255, 50);
@@ -107,9 +116,7 @@ html, body{
     width: 100%;
     height: 100%;
 }
-.middle3, .middle4{
-    border: 1px solid red;
-
+.middle3{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -126,15 +133,21 @@ html, body{
 .up h1, .down h1{
     font-size: 2rem;
 }
+.middle4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.middle4 picture{
+    position: absolute;
+}
+.middle4 img{
+    margin-inline: 1.5rem;
+    
+}
 /*frame 2*/
-
-
-
-
-
-
-
-
 /*graphs*/
 .graph{
     margin-top: 0.5rem;
