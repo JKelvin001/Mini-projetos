@@ -94,32 +94,32 @@ html, body{
     padding: 1rem;
 }
 .graph-y{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
     font-size: 1rem;
     width: 8%;
-    height: 90%;
+    height: 81.5%;
 }
 .graph-x{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     font-size: 1rem;
-    margin: 2rem 2rem 0rem;
+    height: 10%;
 }
 .screen-graphic{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 90%;
 }
-.screen-graphic img{
-    border: 1px solid red;
+.screen-graphic img{ 
     width: 100%;
-    height: 70%;
+    height: 90%;
 }
 #mark{
     font-size: 1.3rem;
