@@ -50,9 +50,16 @@
     }
     /*part 2*/
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+    #container{
+        width: 90%;
+        height: 90%;
+    }
     
 }
-@media screen and (min-width: 992px){
-    
+@media screen and (max-width: 992px){
+    #container{
+        width: 90%;
+        height: 90%;
+    }
 }    
