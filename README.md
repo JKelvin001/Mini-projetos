@@ -1,4 +1,4 @@
-<h1>Estudos Desenvolvimento Web e JavaScript<h1>
+<h1>Mini projetos de estudo<h1>
 <br>
 <a href="https://jkelvin001.github.io/javascript-2/boarding-pass" target="_blank">Boarding Pass</a>
 <br>
